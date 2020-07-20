@@ -14,9 +14,4 @@ public class LogonController {
 
     final static Logger logger = LoggerFactory.getLogger(LogonController.class);
 
-    @GetMapping("/logon")
-    private String helloWorld(){
-        logger.info("恭喜你 进入此系统 ");
-        return "index";
-    }
 }
